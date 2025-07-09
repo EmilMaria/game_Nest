@@ -1,0 +1,32 @@
+.snake-wrapper {
+  text-align: center;
+  padding: 20px;
+}
+
+.snake-board {
+  display: grid;
+  grid-template-columns: repeat(20, 20px);
+  grid-template-rows: repeat(20, 20px);
+  margin: 0 auto;
+  gap: 1px;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  background-color: #eee;
+  border-radius: 3px;
+}
+
+.snake {
+  background-color: #4caf50;
+}
+
+.food {
+  background-color: #f44336;
+}
+
+.game-over {
+  color: red;
+  font-weight: bold;
+}

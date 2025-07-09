@@ -1,0 +1,23 @@
+/* client/src/games/TicTacToe/TicTacToe.css */
+.game {
+  text-align: center;
+  margin-top: 2rem;
+}
+.status {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  gap: 10px;
+  justify-content: center;
+}
+.square {
+  width: 80px;
+  height: 80px;
+  font-size: 2rem;
+  background: #f0f0f0;
+  border: 2px solid #333;
+  cursor: pointer;
+}

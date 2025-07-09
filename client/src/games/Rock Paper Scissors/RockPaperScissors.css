@@ -1,0 +1,26 @@
+.rps-wrapper {
+  text-align: center;
+  padding: 20px;
+}
+
+.buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  background: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.buttons button:hover {
+  background: #0b7dda;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
